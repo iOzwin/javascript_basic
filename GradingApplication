@@ -12,7 +12,7 @@
             var averge = total/3;
 
             //conditions
-            if (JSM>=35 || JM>=35 || NM>=35){
+            if (JSM>=35 && JM>=35 && NM>=35){
                 if(averge>=70){
                     document.write("Javascript marks:"+JSM+" "+"Java marks:"+JM+" "+".NET marks:"+NM+"<br/>");
                     document.write("averge:"+averge+" "+"grade: A<br/>");
